@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.view-container {
+  padding: 20px;
+  text-align: center;
+
+  .view-heading {
+    color: #007bff;
+  }
+
+}
+
+.employee-details-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+  .employee-id {
+    margin-top: 0;
+    font-size: 18px;
+  }
+
+  .employee-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .employee-info {
+    margin-bottom: 10px;
+  }
+
+  .employee-info label {
+    font-weight: bold;
+  }
+
+  .employee-info span {
+    margin-left: 10px;
+  }
+  .back-btn {
+    background-color: rgba(149, 122, 136, 0.8);
+    padding: 10px 20px;
+    margin: 5px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid rgba(149, 122, 136, 0.8);
+  }
+  
+  .back-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .back-btn:hover {
+    background-color: rgba(159, 10, 87, 0.8);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    color: black;
+  }
+
+}
+

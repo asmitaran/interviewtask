@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background-animated {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  animation: rotateImages 10s infinite alternate;
+  
+}
+
+@keyframes rotateImages {
+  0% {
+    background-image: url('../Auth/Images/em3.jpg');
+  }
+
+  50% {
+    background-image: url('../Auth/Images/em2.jpg');
+  }
+
+  100% {
+    background-image: url('../Auth/Images/emply2.jpg');
+  }
+
+  150% {
+    background-image: url('../Auth/Images/em1.jpg');
+  }
+
+}
+
+
+.form-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: 0 auto;
+ 
+
+
+  .employee-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .input-field {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+  color: black;
+}
+
+.add-details-btn {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.add-details-btn:hover {
+  background-color: #a71d2a;
+  color: black;
+}
+
+.add-details-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.add-details-link:hover {
+  text-decoration: underline;
+}
